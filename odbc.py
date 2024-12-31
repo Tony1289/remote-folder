@@ -5,7 +5,7 @@ import getpass
 
 def retrieve_user_credentials():
     try:
-        # Connect to the MySQL database using ODBC
+        # Connect to the MySQL database using ODBc
         connection = pyodbc.connect('DSN=tony_odbc;UID=root;PWD=root')
 
         if connection:
